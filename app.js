@@ -53,3 +53,37 @@
 // }
 
 // calculator();
+
+
+// function sqaure(){
+//     var sq= +prompt("Enter a number to find its square");
+//     var res = sq * sq;
+//          document.write("Square of given number is: " + res)
+//         }
+
+
+//         sqaure();
+
+
+// function factorial() {
+//     var facto = +prompt("Enter a number to find it's factorial");
+//     var resl =1;
+//     for (i = facto; i >= 1; i--) {
+//         resl = resl * i;
+//     }
+//     document.write("Factorial of given number is: " + resl);
+// }
+
+// factorial();
+
+function counting() {
+    var start = +prompt("Enter starting number");
+    var end = +prompt("Enter ending number");
+    for (i = start; i <= end; i++) {
+        document.write(i +  "<br>" );
+
+    }
+
+}
+
+counting() ;
