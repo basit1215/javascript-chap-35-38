@@ -89,14 +89,14 @@
 // counting() ;
 
 
-function computeHypotenues() {
-    var base = +prompt("Enter a base value");
-    var perpendicular = +prompt("Enter a perpendicular value");
-    var baseSquare = base * base;
-    var perpendicularSquare = perpendicular * perpendicular;
-  var  hypotenuseSquare = baseSquare + perpendicularSquare;
-  var  hypotenuse = Math.sqrt(hypotenuseSquare);
-    document.write("Value of base is: " + base + "<br>" + "Value of perpendicular is: " + perpendicular + "<br>" + "Result is: " + hypotenuse.toFixed(3));
+// function computeHypotenues() {
+//     var base = +prompt("Enter a base value");
+//     var perpendicular = +prompt("Enter a perpendicular value");
+//     var baseSquare = base * base;
+//     var perpendicularSquare = perpendicular * perpendicular;
+//   var  hypotenuseSquare = baseSquare + perpendicularSquare;
+//   var  hypotenuse = Math.sqrt(hypotenuseSquare);
+//     document.write("Value of base is: " + base + "<br>" + "Value of perpendicular is: " + perpendicular + "<br>" + "Result is: " + hypotenuse.toFixed(3));
 
-} 
-computeHypotenues();
+// } 
+// computeHypotenues();
