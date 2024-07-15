@@ -140,3 +140,20 @@ function checkPalindrome(){
 }
 
 checkPalindrome();
+
+
+var sentence = prompt("Enter A Sentence I Will Capitilize The Sentence");
+
+function toCapitilize (sentence){
+  var words = sentence.split(" ");
+  var sentenceToCapitalize = words.map(function(word){
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+  });
+
+  sentenceToCapitalize = sentenceToCapitalize.join(" ");
+
+  return sentenceToCapitalize;
+
+}
+
+document.write(toCapitilize(sentence));
